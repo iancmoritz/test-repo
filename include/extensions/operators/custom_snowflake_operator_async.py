@@ -12,5 +12,5 @@ class SnowflakeAuditLogOperator(BaseOperator):
     ui_color = "#e8f7e4"
     inherits_from_empty_operator = True
 
-    def execute(self, context: Context, sql: str):
-        print(sql)
+    def execute(self, context: Context):
+        print("sucess")
