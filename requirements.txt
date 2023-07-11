@@ -1,6 +1,2 @@
 astro-sdk-python[amazon,databricks,duckdb,google,postgres,snowflake]==1.5.3
 
-apache-airflow-providers-dbt-cloud==3.1.0
-apache-airflow-providers-google==8.9.0
-apache-airflow-arup==1.10.5
-apache-airflow-providers-snowflake==4.3.0
