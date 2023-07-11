@@ -9,12 +9,12 @@ from include.extensions.operators.custom_snowflake_operator_async import Snowfla
 import pandas as pd
 import pendulum
 
-from include.example_functions import example_function
+# from include.functions.example_functions import print_sucess
 
 
 @aql.dataframe(task_id="python_1")
 def python_1_func():
-    example_function()
+    # print_sucess()
 
 @dag(
     schedule="0 0 * * *",
